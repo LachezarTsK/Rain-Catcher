@@ -14,6 +14,10 @@ public class Solution {
 
     public int calculate_amountOfRain_caughtBetweenHills(int[] nums) {
 
+        if(nums.length < 3){
+            return 0;
+        }
+        
         int collectedWater = 0;
 
         int leftHill = nums[0];
