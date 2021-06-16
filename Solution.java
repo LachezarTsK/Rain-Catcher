@@ -1,4 +1,3 @@
-package rainCatcher;
 
 public class Solution {
 
